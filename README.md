@@ -77,14 +77,7 @@ Refer to `schema.sql` in the repository for full table creation scripts.
 - All SQL operations use prepared statements to defend against SQL injection.
 - User sessions are enforced for all actions post-login.
 
-## Folder Structure
 
-Expense_Tracking/
-├── src/ # Java source code (servlets, utilities)
-├── webapp/ # JSP files and web assets
-├── images/ # UI screenshots for README
-├── schema.sql # MySQL DDL for database setup
-└── README.md # This documentation file
 
 
 ## Screenshots
@@ -108,7 +101,7 @@ Expense_Tracking/
 ![New Groups 3](images/newGroups3.png)
 
 ### Payment Confirmation
-![Payment Done](images/Payment done.png)
+![Payment Done](images/Payment_done.png)
 
 ### User Registration
 ![Register](images/register.png)
