@@ -1,0 +1,36 @@
+package Register;
+
+
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.*;
+import java.sql.*;
+import java.io.*;
+@WebServlet("/register")
+public class Register extends HttpServlet {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException,ServletException {
+        String username = request.getParameter("UserName");
+        String password = request.getParameter("Password");
+        String email = request.getParameter("email");
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/expensesapp", "root", "Raj@1234");
+            Statement so = con.createStatement();
+            //add base case
+            so.executeUpdate("INSERT INTO user(user_name, email, password) VALUES ('" + username + "', '" + email + "', '" + password + "')");
+PrintWriter out=response.getWriter();
+out.println("Registration SuccessFull");
+
+            
+            
+            
+            so.close();
+            con.close();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+}

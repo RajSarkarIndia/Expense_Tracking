@@ -1,0 +1,6 @@
+127.0.0.1 - - [09/Jul/2025:11:26:23 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [09/Jul/2025:11:26:39 +0530] "GET /Expense_Tracking/ HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jul/2025:11:26:48 +0530] "POST /Expense_Tracking/logincheck HTTP/1.1" 302 -
+127.0.0.1 - - [09/Jul/2025:11:26:48 +0530] "GET /Expense_Tracking/home.jsp HTTP/1.1" 200 579
+127.0.0.1 - - [09/Jul/2025:11:27:24 +0530] "GET /Expense_Tracking/expenses.jsp?search=1 HTTP/1.1" 404 742
+127.0.0.1 - - [09/Jul/2025:11:28:57 +0530] "GET /Expense_Tracking/home.jsp HTTP/1.1" 200 608
