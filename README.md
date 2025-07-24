@@ -71,13 +71,6 @@ The core data structure includes these tables:
 
 Refer to `schema.sql` in the repository for full table creation scripts.
 
-## Security
-
-- **Passwords are securely stored using PBKDF2 (or SHA-256) hashing with a unique salt per user.**
-- All SQL operations use prepared statements to defend against SQL injection.
-- User sessions are enforced for all actions post-login.
-
-
 
 
 ## Screenshots
