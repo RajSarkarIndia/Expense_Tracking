@@ -1,9 +1,0 @@
-INDEX VERSION 1.4+/home/rajsarkar/Expense_Tracking/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-3933960048.index
-1020364386.index
-3803439173.index
-639737441.index
-639737441.index
-689591103.index
-1052083493.index
-1294008841.index
