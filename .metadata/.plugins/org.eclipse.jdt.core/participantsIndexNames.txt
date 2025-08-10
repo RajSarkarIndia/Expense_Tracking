@@ -1,9 +1,0 @@
-INDEX VERSION 1.134
-/home/rajsarkar/Expense_Tracking/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/590417581.index
-/Expense_Tracking/src/main/java
-/home/rajsarkar/Expense_Tracking/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1699326372.index
-/Expense_Tracking/src/main/java
-/home/rajsarkar/Expense_Tracking/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/639737441.index
-/Expense_Tracking/src/main/java
-/home/rajsarkar/Expense_Tracking/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/575978249.index
-/Expense_Tracking/src/main/java
