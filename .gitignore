@@ -1,0 +1,27 @@
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# Build output folders
+bin/
+target/
+
+# IDE specific metadata and logs
+*.log
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Java compiled classes
+*.class
+
+Servers/
+.metadata/
+
